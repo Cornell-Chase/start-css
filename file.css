@@ -6,7 +6,7 @@
 
 .container {
    display: flex;
-   border: 5px solid ;
+   border: 1px solid ;
 }
 
 .header,
@@ -41,4 +41,38 @@
 }
 .links > div {
    padding-right: 15px;
+}
+
+/* SECOND CONTAINER STYLING */
+
+.second {
+   justify-content: space-between;
+   background-color: #1f2937;
+   color: #f9faf8;
+}
+
+.description {
+   border: 10px;
+   width: 50%;
+   padding: 70px 0 0 50px;
+   justify-content: center;
+   flex: 1;
+}
+
+.header-image {
+   padding: 15%;
+   justify-items: center;
+   flex: 1;
+}
+
+.heading, .heading-para {
+   margin: 1rem 0 1rem 0;
+}
+
+.description > button {
+   margin-top: 1rem;
+   padding: 0.5rem;
+   background-color: #3882f6;
+   color: #f9faf8;
+   border-radius: 0.6rem;
 }
